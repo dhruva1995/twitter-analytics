@@ -1,0 +1,16 @@
+.tweet {
+  max-width: 500px;
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: left;
+  padding: 1rem;
+  gap: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.tweet-body {
+  padding: 1rem;
+  min-height: 5rem;
+}

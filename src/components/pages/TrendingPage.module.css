@@ -1,0 +1,61 @@
+.above {
+  display: flex;
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.hashtags {
+  padding-left: 0px;
+  max-height: 20rem;
+  overflow-y: auto;
+  padding-bottom: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hashtags li {
+  list-style: none;
+  padding: 3px;
+  font-size: 1.2rem;
+  font-style: bold;
+}
+
+.hashtag-graph {
+  width: 95dvw;
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.tag-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tag-container h2 {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+  .hashtag-graph {
+    max-width: 70dvw;
+    margin: 0px 0px;
+  }
+  .above {
+    flex-wrap: nowrap;
+    padding: 1rem;
+    max-height: 500px;
+  }
+  .hashtags {
+    max-height: reset;
+    height: 100%;
+    width: 30%;
+    margin: 0 auto;
+  }
+  .tag-container {
+    margin: 0 auto;
+  }
+}

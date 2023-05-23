@@ -1,0 +1,50 @@
+.header {
+  margin: auto;
+  padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #1da1f2;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  justify-content: left;
+  gap: 3rem;
+}
+
+.list li {
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1.5rem;
+}
+
+.list a:hover,
+.list a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+.list a.active {
+  text-decoration: underline;
+}
+
+.nav select {
+  width: 300px;
+  height: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+}

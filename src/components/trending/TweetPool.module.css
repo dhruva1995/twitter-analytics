@@ -1,0 +1,16 @@
+.tweet-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+
+.tweet-pool-container {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}

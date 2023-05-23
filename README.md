@@ -1,3 +1,3 @@
 How to run 
 
-Run ```mvn spring-boot:run``` at the current path in terminal
+Run ```npm install``` at the current path in terminal followed by ```npm start```
